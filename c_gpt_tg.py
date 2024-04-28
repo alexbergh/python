@@ -2,7 +2,7 @@ import openai
 import telebot  
   
   
-openai.api_key = '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'  
+openai.api_key = 'api_token'  
 bot = telebot.TeleBot('API TOKEN BOT')  
   
 @bot.message_handler(func=lambda _: True)  
